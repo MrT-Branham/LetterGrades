@@ -1,9 +1,11 @@
 num = int(input("Enter a number -> "))
-if (num >= 60):
-  print("D")
-elif (num >= 70):
-  print("C")
+if (num >= 90):
+  print("Input is 90 or more")
 elif (num >= 80):
-  print("B")
-elif (num >= 90):
-  print("A")
+  print("Input is 80 or more")
+elif (num >= 70):
+  print("Input is 70 or more")
+elif (num >= 60):
+  print("Input is 60 or more")
+else:
+  print("Input is less than 60")
